@@ -587,3 +587,114 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
+
+.footer {
+    background: #2e2100;
+    padding: 96px 135px 28px;
+}
+
+.footer .content {
+    display: flex;
+    gap: 130px;
+    position: relative;
+}
+
+.footer .message {
+    width: 267px;
+}
+
+.footer .message .content-message {
+    margin-top: 18px;
+    color: #bfbcb2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+.footer .message .social {
+    margin-top: 18px;
+    margin-right: 12px;
+}
+
+.footer .contact-info {
+    display: flex;
+    gap: 130px;
+}
+
+.footer .list-contact:last-child {
+    width: 231px;
+}
+
+.footer .list-contact .item-contact:first-child {
+    position: relative;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer .list-contact .item-contact:first-child::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 1px;
+    background: #59554b;
+    bottom: -14px;
+    left: 0;
+}
+
+.footer .list-contact:not(:last-child) .item-contact:nth-child(2) {
+    margin-top: 43px;
+    width: 130px;
+}
+
+.footer .list-contact .item-contact:nth-child(2) {
+    margin-top: 43px;
+}
+
+.footer .list-contact .item-contact:nth-child(n + 3) {
+    margin-top: 12px;
+}
+
+.footer .list-contact .item-contact a,
+.footer .list-contact .item-contact {
+    color: #bfbcb2;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+.footer .item-contact span {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.86;
+}
+
+.footer .copyright {
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.86;
+    margin-top: 67px;
+}
+
+.footer .content:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    margin-top: 38px;
+    width: 1170px;
+    height: 1px;
+    background: #59554b;
+    bottom: -38px;
+}
