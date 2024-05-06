@@ -51,6 +51,10 @@ a {
     border-radius: 24.5px;
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
 .desc {
     color: var(--color_nav-list);
     font-family: Poppins;
@@ -272,12 +276,14 @@ a {
 
 .courses .control-courses {
     display: flex;
+    gap: 18px;
 }
 
 .courses .control {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--color_primary);
     width: 40px;
     height: 40px;
     border: 1px solid var(--color_primary);
@@ -285,12 +291,9 @@ a {
     background: #fff;
 }
 
-.courses .to-left {
-    margin-right: 18px;
-}
-
-.courses .to-right {
+.courses .control:hover {
     background: var(--color_primary);
+    color: #fff;
 }
 
 .courses .list-courses,
@@ -517,7 +520,6 @@ a {
 
 .blog .sub-heading {
     color: #696262;
-    font-family: Poppins;
     font-size: 1.6rem;
     line-height: 1.75;
     margin-top: 16px;
@@ -534,7 +536,6 @@ a {
 .blog .list-item .date {
     position: relative;
     color: var(--color_nav-list);
-    font-family: Poppins;
     font-size: 1.4rem;
     font-style: normal;
     line-height: 1.86;
@@ -545,7 +546,7 @@ a {
     display: inline-block;
     position: absolute;
     content: "";
-    background: #ffb900;
+    background: var(--color_primary);
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -566,9 +567,7 @@ a {
 
 .blog .list-item .content-blog {
     color: var(--color_bg-btn-1_text);
-    font-family: Poppins;
     font-size: 1.6rem;
-    font-style: normal;
     font-weight: 600;
     line-height: 1.75;
     margin-top: 25px;
@@ -609,7 +608,6 @@ a {
 .footer .message .content-message {
     margin-top: 18px;
     color: #bfbcb2;
-    font-family: Poppins;
     font-size: 1.4rem;
     line-height: 1.86;
 }
@@ -631,7 +629,6 @@ a {
 .footer .list-contact .item-contact:first-child {
     position: relative;
     color: #fff;
-    font-family: Poppins;
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.75;
@@ -664,17 +661,13 @@ a {
 .footer .list-contact .item-contact a,
 .footer .list-contact .item-contact {
     color: #bfbcb2;
-    font-family: Poppins;
     font-size: 14px;
-    font-style: normal;
     line-height: 1.86;
 }
 
 .footer .item-contact span {
     color: #fff;
-    font-family: Poppins;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
     line-height: 1.86;
 }
@@ -683,7 +676,6 @@ a {
     color: #807d74;
     text-align: center;
     font-size: 1.4rem;
-    font-style: normal;
     line-height: 1.86;
     margin-top: 67px;
 }
