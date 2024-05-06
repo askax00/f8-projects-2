@@ -294,6 +294,7 @@ a {
 .courses .control:hover {
     background: var(--color_primary);
     color: #fff;
+    cursor: pointer;
 }
 
 .courses .list-courses,
